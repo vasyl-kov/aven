@@ -1,0 +1,21 @@
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[ERROR] SQLSTATE[HY000] [14] unable to open database file
+[2024-11-21 12:30:40] ERROR: Database file not found at: /Applications/MAMP/htdocs/aven/formHandler/php/database/database.sqlite
+[2024-11-21 12:45:47] ERROR: Database connection successful, but 'users' table not found.
+[2024-11-21 13:40:10] ERROR: SQLSTATE[23000]: Integrity constraint violation: 19 NOT NULL constraint failed: users.name
+[2024-11-21 13:40:32] ERROR: SQLSTATE[23000]: Integrity constraint violation: 19 NOT NULL constraint failed: users.name
+[2024-11-21 13:42:19] ERROR: SQLSTATE[23000]: Integrity constraint violation: 19 NOT NULL constraint failed: users.name
+2024-11-21 20:43:18 | POST | /aven/formHandler/php/form-handler.php | {"fbp":"testFBP","ggl":"testGGL","first_name":"test","last_name":"test","email":"safadasdasmdajsda@sdfsdffsdaf","phone":"11111111111111111111","select_service1":"selecttime","select_price1":"$100 - $2000","country_code":"UA"} | {"success":true,"redirect_url":"success.php"}
+2024-11-21 22:19:25 | POST | /aven/formHandler/php/form-handler.php | {"fbp":"testFBP","ggl":"testGGL","first_name":"fdsfsdfds","last_name":"asdfsdfdsfsdf","email":"asdasdasd@asdfasdasd.dasdad","phone":"2312312312312312","select_service1":"selecttime","select_price1":"$100 - $2000","country_code":"FR"} | {"success":true,"redirect_url":"success.php"}
+2024-11-21 22:26:05 | POST | /aven/formHandler/php/form-handler.php | {"fbp":"","ggl":"","first_name":"fdsfsdfdsa","last_name":"asdasdasd","email":"asdasdasdasdasdas@asdasdad","phone":"2423423424234234","select_service":"selecttime","select_price":"$100 - $2000","comments":"","country_code":"FR"} | {"success":true,"redirect_url":"success.php"}
+2024-11-21 22:30:39 | POST | /aven/formHandler/php/form-handler.php | {"fbp":"testFBP","ggl":"testGGL","first_name":"test","last_name":"test","email":"sfsdfdsf@dasdasdasdsa","phone":"23423423423423","select_service1":"selecttime","select_price1":"$100 - $2000","country_code":"FR"} | {"success":true,"redirect_url":"success.php"}
+2024-11-21 22:46:41 | POST | /aven/formHandler/php/form-handler.php | {"fbp":"testFBP","ggl":"testGGL","first_name":"fdsfsdfds","last_name":"sdfsdfsdfs","email":"testVK@testVKGoogleFinanceasdasdasdasdasd","phone":"1234123123123123","select_service1":"selecttime","select_price1":"$100 - $2000","country_code":"FR"} | {"success":true,"redirect_url":"success.php"}
+2024-11-21 22:50:06 | POST | /aven/formHandler/php/form-handler.php | {"fbp":"testFBP","ggl":"testGGL","first_name":"test","last_name":"sdasdasd","email":"asdasdasd@asdasdasdas","phone":"214234234234234234","select_service1":"selecttime","select_price1":"$100 - $2000","country_code":"UA"} | {"success":true,"redirect_url":"success.php"}
